@@ -1,0 +1,14 @@
+server:
+  port: 2512
+
+spring:
+  application:
+    name: QuizApplication
+  datasource:
+    url: jdbc:postgresql://localhost:5432/QuizApp
+    username: postgres
+    password: Madhu#223
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
